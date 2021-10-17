@@ -1,0 +1,98 @@
+[
+  {
+    "id": "GC6z2M85o",
+    "name": "Iyengar yoga",
+    "description": "Iyengar Yoga, named after and developed by B. K. S. Iyengar, and described in his bestselling[1] 1966 book Light on Yoga, is a form of yoga as exercise that has an emphasis on detail, precision and alignment in the performance of yoga postures (asanas). The style often makes use of props, such as belts, blocks, and blankets, as aids in performing the asanas. The props enable beginning students, the elderly, or those with physical limitations to perform the asanas correctly, minimising the risk of injury or strain.",
+    "image": "https://i.ibb.co/SyjyzJy/1.jpg",
+    "numberOfWeek": 57,
+    "open": "29/11/2021",
+    "days": "fri_sat_sun",
+    "level": "advance",
+    "price": 143.66,
+    "teacher": "Clementina Orry"
+  },
+  {
+    "id": "HmroHP78H",
+    "name": "Pregnant Yoga",
+    "description": "If you're pregnant and looking for ways to relax or stay fit, you might be considering prenatal yoga. But did you know that prenatal yoga might also help you prepare for labor and promote your baby's health? Before you start prenatal yoga, understand the range of possible benefits, as well as what a typical class entails and important safety tips.",
+    "image": "https://i.ibb.co/dMHdTLm/2.jpg",
+    "numberOfWeek": 51,
+    "open": "26/11/2021",
+    "days": "mon_tue_wed",
+    "level": "intermediate",
+    "price": 102.41,
+    "teacher": "Elwira Worham"
+  },
+  {
+    "id": "AesvTE33u",
+    "name": "Kudalini Yoga",
+    "description": "Although Kundalini yoga is practiced around the world, its origin is unknown. The concept of Kundalini energy has been around for centuries and was mentioned in ancient Vedic texts from 1,000 B.C.  Kundalini yoga is most associated with Yogi Bhajan, a yoga teacher from Pakistan. He’s credited with introducing the practice to Western countries in the 1960s. The term “Kundalini” comes from the Sanskrit word “kundal,” which means “circular.” It also refers to a coiled snake. And according to practitioners, Kundalini energy is like that coiled snake: It sits at the base of your spine, sleeping and unaroused.",
+    "image": "https://i.ibb.co/xjYGKT2/3.jpg",
+    "numberOfWeek": 85,
+    "open": "06/12/2021",
+    "days": "thu_fri",
+    "level": "intermediate",
+    "price": 165.15,
+    "teacher": "Griselda Radin"
+  },
+  {
+    "id": "hazx9A57A",
+    "name": "Sivananda Yoga",
+    "description": "Sivananda yoga is a type of yoga that is based on the teachings of Swami Sivananda. This style of yoga has its roots in Hatha yoga and a strong focus on the health and physical well-being of the yogi. It involves regular periods of relaxation and yogic breathing techniques, or pranayama. All yoga teachers have undertaken the Sivananda yoga teacher training.",
+    "image": "https://i.ibb.co/Ks7VTh4/4.jpg",
+    "numberOfWeek": 77,
+    "open": "12/12/2021",
+    "days": "fri_sat_sun",
+    "level": "advance",
+    "price": 127.14,
+    "teacher": "Job Kalinowsky"
+  },
+  {
+    "id": "4ikeGI19M",
+    "name": "Ashtanga Yoga",
+    "description": "The word Ashtanga is comprised of two Sanskrit words, “Ashta” and “Anga.” “Ashta” refers to the number eight, while “Anga” means limb or body part. Therefore, Ashtanga is the union of the eight limbs of yoga, into one complete, holistic system. These eight-limbs of yoga represent the various branches of the philosophy of the yoga sutras that form the foundation in the Ashtanga Yoga School. The Ashtanga philosophy is to integrate all of the eight limbs of yoga, which include: Yama (moral codes), Niyama (self-discipline), Asana (posture), Pranayama (breath control), Pratyahara (sense withdrawal), Dharana (concentration), Dhyana (meditation), and Samadhi (oneness with the self).",
+    "image": "https://i.ibb.co/JyrN9Vq/6.jpg",
+    "numberOfWeek": 90,
+    "open": "03/12/2021",
+    "days": "mon_tue_wed",
+    "level": "intermediate",
+    "price": 111.6,
+    "teacher": "Nancie Marlow"
+  },
+  {
+    "id": "5kmbAW07o",
+    "name": "Hatha Yoga",
+    "description": "The Sanskrit word “hatha” can be translated in English two different ways: as “willful” or “forceful,” as the active path of yoga—or as “sun” (ha) and “moon” (tha), as the yoga of balance. Taken together, hatha yoga can be described as a set of willful and active practices that aim to achieve harmony and balance in the mind, body, and spirit. This approach to yoga is often called “the forceful path” and includes the practice of physical postures and breathing techniques. Hatha yoga is the generic type of yoga classes taught in the West. Most of the popular types of yoga taught in yoga studios are derived from this style. It is often used to describe a more gentle or beginner friendly style.",
+    "image": "https://i.ibb.co/Bg03HZn/7.jpg",
+    "numberOfWeek": 56,
+    "open": "22/11/2021",
+    "days": "thu_fri",
+    "level": "beginner",
+    "price": 142.8,
+    "teacher": "Marget Baudains"
+  },
+  {
+    "id": "nugj5E05g",
+    "name": "Bikram yoga",
+    "description": "Bikram yoga is a form of yoga popularized by Bikram Choudhury in the 1970s in California. ... The poses were chosen by Choudhury from classic hatha poses and are designed to systematically move fresh, oxygenated blood to 100 percent of your body, to each organ and fiber, according to the official Bikram yoga site.",
+    "image": "https://i.ibb.co/LgyxCqW/8.jpg",
+    "numberOfWeek": 49,
+    "open": "24/11/2021",
+    "days": "fri_sat_sun",
+    "level": "beginner",
+    "price": 120.0,
+    "teacher": "Berkly Maccaig"
+  },
+  {
+    "id": "a5ph2O41s",
+    "name": "Vinyasa yoga",
+    "description": "Vinyasa is one of the most common styles of yoga practiced in the West. Vinyasa is a term used to describe continuous or dynamic movements between yoga poses. This flow of movement is excellent for getting your heart rate going and working up a sweat. Vinyasa can also help increase flexibility, strength, stability, calmness, and focus. Even if you do not wish to practice vinyasa yoga, the use and applications of this term are essential to understand as a dedicated practitioner of yoga.",
+    "image": "https://i.ibb.co/P48dVtC/9.jpg",
+    "numberOfWeek": 86,
+    "open": "15/12/2021",
+    "days": "mon_tue_wed",
+    "level": "beginner",
+    "price": 122.43,
+    "teacher": "Marge Gwyer"
+  }
+]
