@@ -46,7 +46,7 @@ const Header = () => {
             </li>
             {user ? (
               <li className="nav-item d-flex align-items-center">
-                <span>{user.displayName}</span>
+                <span className="me-3">{user.displayName} </span>
                 <button
                   className="btn fw-bold custom_color_2 text-white"
                   onClick={logOut}
