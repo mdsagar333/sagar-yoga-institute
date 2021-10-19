@@ -1,0 +1,13 @@
+.banner_container {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(https://i.ibb.co/HgRSC7y/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  height: 75vh;
+}
+
+.custom_bg_overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}

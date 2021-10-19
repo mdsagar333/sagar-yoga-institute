@@ -1,0 +1,15 @@
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icons {
+  font-size: 60px;
+  color: #00ad8d;
+}
+
+.loto-text {
+  font-family: "Satisfy", cursive;
+  font-size: 35px;
+  color: #00ad8d;
+}

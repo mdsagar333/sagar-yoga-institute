@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+/* Global styles */
+
+.custom_color {
+  color: #00ad8d;
+  font-family: "Satisfy", cursive;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom_color_2 {
+  background-color: #00ad8d;
+}
+.custome-letter-spacing {
+  letter-spacing: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom_card {
+  transition: all 0.5s;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom_card:hover {
+  box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.82);
+  -webkit-box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.82);
 }
 
-.App-link {
-  color: #61dafb;
+.custom_card_img {
+  transition: all 0.6s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custome_card_hover:hover .custom_card_img {
+  transform: scale(1.07);
+}
+
+.custom_google_icon {
+  font-size: 2rem;
+  margin-left: 10px;
 }
