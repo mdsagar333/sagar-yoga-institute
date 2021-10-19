@@ -52,22 +52,8 @@ const Register = () => {
                   <h2 className="text-uppercase text-center mb-5">
                     Create an account
                   </h2>
-
+                  {error && <p className="text-danger fw-bold">{error}</p>}
                   <form onSubmit={handleSubmit}>
-                    {/* <div className="form-outline mb-3">
-                      <input
-                        type="text"
-                        id="form3Example1cg"
-                        className="form-control form-control-lg"
-                        name="name"
-                        required
-                        onBlur={handleUserName}
-                      />
-                      <label className="form-label" htmlFor="form3Example1cg">
-                        Your Name*
-                      </label>
-                    </div> */}
-
                     <div className="form-outline mb-3">
                       <input
                         type="email"

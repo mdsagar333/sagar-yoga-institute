@@ -11,13 +11,24 @@ const Login = () => {
   const redirect_url = from.pathname;
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [validationError, setvalidationError] = useState(null);
   const [loginError, setLogIneError] = useState(null);
 
+  // google sign in
   const handleGoogleSignIn = () => {
     signInwithGoogle().then((result) => {
-      history.push(redirect_url);
+      history.push(redirect_url).then((err) => {
+        setLogIneError("There is something wrong. Please try again later!");
+      });
     });
   };
+
+  // custom email checking function
+  function validateEmail(email) {
+    const re =
+      /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+  }
 
   // setting email state value
   const handleUserEmail = (e) => {
@@ -32,13 +43,17 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLogIneError(null);
+    setvalidationError(null);
+    if (!validateEmail(email)) {
+      setvalidationError("Please insert a valid email.");
+    }
     signInUsingEmailPassword(email, password)
       .then((result) => {
         history.push(redirect_url);
       })
       .catch((err) => {
         console.log(err);
-        setLogIneError("Password you have entered is incorrect.");
+        setLogIneError("Email or Password Is Incorrect.");
       });
   };
   return (
@@ -52,6 +67,9 @@ const Login = () => {
                   <h2 className="text-uppercase text-center mb-5">Login</h2>
                   {loginError && (
                     <p className="text-danger fw-bold"> {loginError} </p>
+                  )}
+                  {validationError && (
+                    <p className="text-danger fw-bold"> {validationError} </p>
                   )}
                   <form onSubmit={handleSubmit}>
                     <div className="form-outline mb-3">
