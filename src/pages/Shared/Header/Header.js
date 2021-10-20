@@ -5,7 +5,6 @@ import Logo from "../Logo/Logo";
 
 const Header = () => {
   const { user, logOut } = useAllContext();
-  console.log(user);
   return (
     <nav className="navbar navbar-expand-lg bg-white navbar-light fw-bold">
       <div className="container-fluid">
@@ -62,7 +61,7 @@ const Header = () => {
                 </button>
               </li>
             ) : (
-              <div style={{ display: "flex" }}>
+              <div className="d-flex flex-column flex-md-row">
                 <li className="nav-item">
                   <Link className="nav-link" to="/login">
                     Login
