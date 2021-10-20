@@ -4,7 +4,7 @@ import useAllContext from "../../../Hooks/useAllContext";
 import Logo from "../Logo/Logo";
 
 const Header = () => {
-  const { user, isUserLoaded, logOut } = useAllContext();
+  const { user, logOut } = useAllContext();
   return (
     <nav className="navbar navbar-expand-lg bg-white navbar-light fw-bold">
       <div className="container-fluid">
@@ -46,7 +46,13 @@ const Header = () => {
             </li>
             {user ? (
               <li className="nav-item d-flex align-items-center">
-                <span className="me-3">{user.displayName} </span>
+                <span className="me-2 text-info">Hey {user.displayName} </span>
+                {user.photoURL && (
+                  <img
+                    src={user.photoURL}
+                    className="rounded-circle custom_user_img"
+                  />
+                )}
                 <button
                   className="btn fw-bold custom_color_2 text-white"
                   onClick={logOut}

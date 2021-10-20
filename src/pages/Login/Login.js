@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation, useHistory } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import useAllContext from "../../Hooks/useAllContext";
+import Flash from "react-reveal/Flash";
 
 const Login = () => {
   const { signInwithGoogle, signInUsingEmailPassword } = useAllContext();
@@ -16,11 +17,13 @@ const Login = () => {
 
   // google sign in
   const handleGoogleSignIn = () => {
-    signInwithGoogle().then((result) => {
-      history.push(redirect_url).then((err) => {
+    signInwithGoogle()
+      .then((result) => {
+        history.push(redirect_url);
+      })
+      .catch((err) => {
         setLogIneError("There is something wrong. Please try again later!");
       });
-    });
   };
 
   // custom email checking function
@@ -66,10 +69,14 @@ const Login = () => {
                 <div className="card-body p-5">
                   <h2 className="text-uppercase text-center mb-5">Login</h2>
                   {loginError && (
-                    <p className="text-danger fw-bold"> {loginError} </p>
+                    <Flash forever={true}>
+                      <p className="text-danger fw-bold"> {loginError} </p>
+                    </Flash>
                   )}
                   {validationError && (
-                    <p className="text-danger fw-bold"> {validationError} </p>
+                    <Flash forever={true}>
+                      <p className="text-danger fw-bold"> {validationError} </p>
+                    </Flash>
                   )}
                   <form onSubmit={handleSubmit}>
                     <div className="form-outline mb-3">

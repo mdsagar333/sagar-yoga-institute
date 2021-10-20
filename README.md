@@ -4,7 +4,7 @@ This project build with react and bootstrap [SAGAR YUGA INSTITUTE](https://sagar
 
 - This site is responsive for small and large device.
 - It has firebase authentication functionality. User can sign in or sign up using email and password or google credentials.
-- There are total 6 pages in this website.
+- There are total 7 pages in this website.
 - This website has two protected route.
 - In case of incorrect email or password it has error showing feature.
 - This website has embeded YouTube video.
