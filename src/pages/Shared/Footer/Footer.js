@@ -37,12 +37,6 @@ const Footer = () => {
                 <Link className="nav-link text-white" to="/trainer">
                   Contact With Trainer
                 </Link>
-                <Link className="nav-link text-white" to="/login">
-                  Login
-                </Link>
-                <Link className="nav-link text-white" to="/register">
-                  Register
-                </Link>
               </nav>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
