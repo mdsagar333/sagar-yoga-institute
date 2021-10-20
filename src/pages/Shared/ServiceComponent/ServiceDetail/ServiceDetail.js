@@ -29,7 +29,7 @@ const ServiceDetail = (props) => {
   } = service[0];
   return (
     <div className="container-fluid px-4">
-      <h3 className="text-center mb-5 custom_color">Service Details</h3>
+      <h3 className="text-center mb-5 custom_color mt-4">Service Details</h3>
       <div className="row g-5">
         <div className="col-12 col-md-6 col-lg-8">
           <h1 className="mb-4">{name}</h1>

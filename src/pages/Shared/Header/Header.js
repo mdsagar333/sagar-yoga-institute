@@ -5,6 +5,7 @@ import Logo from "../Logo/Logo";
 
 const Header = () => {
   const { user, logOut } = useAllContext();
+  console.log(user);
   return (
     <nav className="navbar navbar-expand-lg bg-white navbar-light fw-bold">
       <div className="container-fluid">
